@@ -1,0 +1,136 @@
+<html>
+    
+<head>
+    <title>Desafio HTML</title>
+</head>
+
+<body>
+    <hr>
+    <h1 id="inicio"><strong><u><i>Descobrindo o HTML</i></u></strong></h1>
+    <hr>
+    <h2><strong><u><i>Índice</i></u></strong></h2>
+    <ol>
+        <li><a href="#historia">A história dos computadores</a></li>
+        <li><a href="#surgimento">O que é HTML?</a></li>
+        <li><a href="#funciona?">Como funciona?</a></li>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#estrutura">Estrutura básica</a></li>
+        <li><a href="#clients">O que são Clients?</a></li>
+        <li><a href="#servers">O que são Servers?</a></li>
+        <li><a href="#primeira">Quer começar a criar seu primeiro site?</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ol>
+    <hr>
+
+    <h2 id="historia"><strong><u><i>A história dos computadores</i></u></strong></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+
+    <p>O computador, tal qual conhecemos hoje, passou por diversas transformações e foi se aperfeiçoando ao longo do tempo, acompanhando o avanço das áreas da matemática, engenharia, eletrônica.</p>
+    <p>De acordo a história da computação está dividida em quatro períodos</p>
+
+    <ul>
+        <li><strong><i>Primeira Geração (1951-1959)</i></strong> = Os computadores de primeira geração funcionavam por meio de circuitos e válvulas eletrônicas. Possuíam o uso restrito, além de serem imensos e consumirem muita energia.Um exemplo é o ENIAC (Eletronic Numerical Integrator and Computer) que consumia cerca de 200 quilowatts e possuía 19.000 válvulas.</li> 
+        <li><strong><i>Segunda Geração (1959-1965)</i></strong> = Ainda com dimensões muito grandes, os computadores da segunda geração funcionavam por meio de transistores, os quais substituíram as válvulas que eram maiores e mais lentas. Nesse período já começam a se espalhar o uso comercial.</li>
+        <li><strong><i>Terceira Geração (1965-1975)</i></strong> = Os computadores da terceira geração funcionavam por circuitos integrados. Esses substituíram os transistores e já apresentavam uma dimensão menor e maior capacidade de processamento.Foi nesse período que os chips foram criados e a utilização de computadores pessoais começou.</li>
+        <li><strong><i>Quarta Geração (1975-até os dias atuais)</i></strong> = Com o desenvolvimento da tecnologia da informação, os computadores diminuem de tamanho, aumentam a velocidade e capacidade de processamento de dados. São incluídos os microprocessadores com gasto cada vez menor de energia. Nesse período, mais precisamente a partir da década de 90, há uma grande expansão dos computadores pessoais.Além disso, surgem os softwares integrados e a partir da virada do milênio, começam a surgir os computadores de mão. Ou seja, os smartphones, iPod, iPad e tablets, que incluem conexão móvel com navegação na web.</li>
+        <li><strong><i>Quinta geração (1991 — dias atuais)</i></strong> = A quinta geração vem sendo marcada pela inteligência artificial e por sua conectividade.</li>
+    </ul>
+
+    <h2 id="surgimento"><strong><u>O que é o <i>HTML?</i></u></strong></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+
+    <p><strong>HTML</strong> é a sigla para HyperText Markup Language (Linguagem de Marcação de Hipertexto, em inglês). Foi criado na década de 1990 pelo físico britânico Tim Berners-Lee, considerado o “pai da web”, para auxiliar na formatação dos documentos de pesquisas compartilhados entre ele e seus colegas.</p>
+    <p>Com o desenvolvimento dos navegadores e a popularização da internet, o HTML passou a ser utilizado na criação de sites, tornando-se um dos pilares da “World Wide Web”. Atualmente, a tecnologia evoluiu e é utilizada em conjunto com outras ferramentas, como o CSS e o JavaScript, no desenvolvimento de sites e aplicativos web dinâmicos.</p>
+    
+    <h2 id="funciona?"><u><i>Como funciona?</i></u></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+
+    <p>O <strong><i>HTML</i></strong> não é uma linguagem de programação e sim de marcação com o qual os elementos de uma página são identificados e definidos por um par de marcadores conhecidos como <strong>tags</strong>. Eles podem ser desde textos e suas formatações, como parágrafos, sublinhados e links, até de multimídia (imagens e vídeos).</p>
+    <p>As tags descrevem a estrutura semântica de uma página, ou seja, a organização de suas informações, que é recebida e interpretada e renderizada pelos navehadores (Chrome, Mozilla, Microsoft Edger, entre outros).</p>
+        <p>Abaixo, segue um exemplo de uma página HTML que exibe a mensagem "Óla Mundo" em um parágrafo;</p>
+    <img src="https://i.ibb.co/Prjw8G4/olamundo.png">
+
+
+    <h2 id="tags"><u><i>Tags</i></u></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+
+    <p>As tags servem para informar ao navegador que tipo de estrutura é essa que está sendo construida, podendo ser títulos, parágrafos, imagens,links, entre outros.</p>
+    <p>As tags são formadas por uma estrutura própria, iniciam com o sinal <abbr title="<">“menor que”</abbr>, em seguida vem o nome daquele elemento e por fim, o sinal <abbr title=">">“maior que”</abbr>.</p>
+    <p>Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing).</p>
+    <p>O fechamento de uma tag será definido com uma barra (/).</p>
+    <p><strong><a href="https://miro.medium.com/v2/resize:fit:656/1*Po9-LJtzZddK__qDMCs4rg.png"> Conforme essa imagem.</a></strong></p>
+
+    <h2 id="estrutura"><u><i>Estrutura básica</i></u></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+    
+    <p><h5>Algumas das principais tags do HTML</h5></p>
+
+    <ul>
+        <li><strong> &lt; html &gt; &lt; /html &gt; </strong>= <i> Representa a raiz do documento, engloba todos os outros elementos HTML.</i></li>
+        <li><strong> &lt; head &gt; &lt; /head &gt; </strong>= <i>É a “cabeça” do documento. Providencia informações gerais(metadados) para os navegadores, nele que se encontra a tag &lt; title &gt; que é onde coloca-se o título da página.</i></li>
+        <li><strong> &lt; title &gt; &lt; /title &gt; </strong>=  <i>O título do seu documento, que ficará visível na aba do navegador. Ele é diferente do título da sua página.</i></li>
+        <li><strong> &lt; body &gt; &lt; /body &gt; </strong>= <i>Como nome já diz, é o copo onde fica todo conteúdo de texto, imagens e vídeos, em que o usuária(a) vê e interage, nele os conteúdos são estruturados pelas demais tags.</i></li>
+        <li><strong> &lt; h1 &gt; &lt; /h1 &gt; até &lt; /h6 &gt; </strong>= <i>São marcações de título de uma página, por ordem de relevância. H1 é o título principal da página.</i></li>
+        <li><strong> &lt; p &gt; &lt; /p &gt; </strong>= <i>É um paragrafo, onde fica o conteúdo da sua página.</i></li>
+        <li><strong> &lt; br &gt; </strong>= <i>Uma quebra de linha, que não precisa de tag de fechamento.</i></li>
+        <li><strong> &lt; !– – &gt; &lt; !– – &gt; </strong>=<i> É a sintaxe de um comentário no seu código, que pode ser utilizado para explicar o seu código. O texto dentro dessa tag não será visível para o usuário.</i></li>
+    </ul>
+
+
+    <h2 id="clients"><u><i>O que são Clients?</i></u></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+
+    <p>É um termo usado na computação e representa aquele que consome os serviços de outra através do uso de uma rede de computadores numa arquitetura cliente-servidor.</p>
+
+
+    <h2 id="servers" ><i><u>O que são Servers?</u></i></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+    
+    <p>É um host que está executando um ou mais serviços ou programas que compartilham recursos com os clientes.</p>
+
+
+    <h2 id="primeira" ><i><u>Quer começar a criar seu primeiro site?</u></i></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+
+    <h4>Depois da introdução acima, vamos começar a criar o primeiro "Olá Mundo!" mas para isso, vamos baixar um editor de texto. Vamos lá!</h4>
+
+    <p>Você precisa agora baixar algum software de edição de texto, vamos usar o <a href="https://code.visualstudio.com/">Visual Code</a> como exemplo.</p>
+    <p>Agora você vai precisar criar uma pasta no seu computador para guardar o seu primeiro documento .hmtl.</p>
+    <blockquote>"Esse é um passo importante para não deixar o seu documento perdido no computador."</blockquote>
+    <p>Se você já criou a pasta, abra o software que você provavelmente baixou clicando nele logo acima... Não? Então não perca tempo! Clica lá e baixa, é de graça :) </p>
+    <p>Vamos lá?</p>
+
+    <h2><strong><u><i>Criando seu site</i></u></strong></h2>
+    
+    
+    <p>Ao abrir o editor de texto/código, procure pela aba de ‘Arquivo/File’ e crie um novo documento em ‘Novo Arquivo/New File’.</p>
+    <p>Nomeie seu arquivo como <strong>index.html </strong></p>
+    <p><img width="400" src="https://i.ibb.co/82hRhk2/index2.png"></p>
+    <p>Digite a tag "&lt; html &gt;". Todo o seu documento precisa estar aqui dentro, como uma grande caixa. Dessa forma, a tag de fechamento "&lt; /html &gt;" ficará no final do seu documento.
+        Por enquanto, o seu documento deve estar assim:</p>
+    <p><img width="400" src="https://i.ibb.co/DY7rM5J/html.png"></p>
+    <p>Você adicionar a “cabeça” do seu documento, o head (&lt; head &gt;) é a próxima tag a ser adicionada.Dentro do head, você vai adicionar o título do documento entre as tag &lt; title &gt; &lt; /title &gt;, que aparecerá na aba do navegador. Qualquer outro conteúdo escrito dentro do head <strong>não será visível para o usuário!</strong>
+    <p><img width="400" src="https://i.ibb.co/j4vNqLq/bodytitle.png"></p>
+    <p>O próximo é o “corpo”, o body (&lt;body&gt; &lt;/body&gt;). Dentro dele, vamos começar a escrever o conteúdo da sua página, que ai sim, será visível para o usuário.</p>
+    <p><img width="400" src="https://i.ibb.co/Gp0MZmf/body.png"></p>
+    <p>O próximo passo é você escrever um cabeçario e um paragrafo dentro do &lt; body &gt;</p>
+    <p><img width="400" src="https://i.ibb.co/yQnfnCJ/h1.png"></p>
+    <p>O seu documento ficará conforme a imagem abaixo:</p>
+    <p><img width="400" src="https://i.ibb.co/Prjw8G4/olamundo.png"></p>
+    <p>Para salvar esse incrível trabalho, clique em arquivo(no canto superior esquerdo da tela) e procure a opção "salvar" ou "salvar como" </p>
+    <p>Selecionando aquela pasta lá do começo para salvar seu arquivo</p>
+    <p>Nesse momento você vai até a pasta onde salvou seu arquivo e clica duas vezes para abrir em seu navaegdor e pronto... Seu primeiro site está criado!!!</p>
+    <p>Parabéns! Esse é só seu primeiro passo para o melhor que tem por vir!</p>
+    <p></p>
+    <p>Espero que tenham gostado, até a próxima!</p>
+
+    <h2 id="links" ><strong><u><i>Links de referências</i></u></strong></h2>
+    <h5><small><a href="#inicio">Voltar</a></small></h5>
+    <ul>
+        <li><a href="http://dio.me">DIO.me</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo">Curso em Vídeo (Professor Guanabara)</a></li>
+    </ul>
+
+    </body>
+
+</html>
